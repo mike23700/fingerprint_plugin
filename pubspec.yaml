@@ -1,7 +1,9 @@
 name: fingerprint_plugin
-description: "A new Flutter plugin project."
-version: 0.0.1
-homepage:
+description: "A Flutter plugin for biometric authentication with automatic fingerprint detection on Android."
+version: 1.0.0+1
+homepage: https://github.com/mikeken/fingerprint_plugin
+repository: https://github.com/mikeken/fingerprint_plugin
+documentation: https://github.com/mikeken/fingerprint_plugin/blob/main/README.md
 
 environment:
   sdk: ^3.7.2
