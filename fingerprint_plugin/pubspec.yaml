@@ -1,0 +1,30 @@
+name: fingerprint_plugin
+description: A Flutter plugin for biometric authentication with automatic fingerprint detection on Android.
+version: 1.0.0+1
+homepage: https://github.com/mikeken/fingerprint_plugin
+repository: https://github.com/mikeken/fingerprint_plugin
+documentation: https://github.com/mikeken/fingerprint_plugin/blob/main/README.md
+
+publish_to: 'https://pub.dev'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.fingerprint_plugin
+        pluginClass: FingerprintPlugin
+      ios:
+        pluginClass: FingerprintPlugin
