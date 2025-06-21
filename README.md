@@ -1,7 +1,6 @@
 # Fingerprint Plugin for Flutter
 
 [![pub package](https://img.shields.io/pub/v/fingerprint_plugin.svg)](https://pub.dev/packages/fingerprint_plugin)
-[![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg)](https://opensource.org/licenses/MIT)
 
 A Flutter plugin that provides biometric authentication with automatic fingerprint detection for Android.
 
