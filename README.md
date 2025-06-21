@@ -178,11 +178,3 @@ Add the following permissions to your `AndroidManifest.xml`:
 <uses-permission android:name="android.permission.USE_BIOMETRIC" />
 <uses-permission android:name="android.permission.USE_FINGERPRINT" />
 ```
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
